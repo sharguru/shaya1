@@ -1,8 +1,8 @@
-n,k=map(int,input().split())
+na,ka=map(int,input().split())
 ll=list(map(int,input().split()))
-for i in range(0,n):
-    if ll[i]==k:
-        print("yes "+str(ll.count(k)))
+for i in range(0,na):
+    if ll[i]==ka:
+        print("yes "+str(ll.count(ka)))
         break
     else:
         print("no")
